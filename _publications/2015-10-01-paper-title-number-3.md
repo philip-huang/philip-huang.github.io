@@ -1,7 +1,7 @@
 ---
 title: "Continual model-based reinforcement learning with hypernetworks"
 collection: publications
-author: *Yizhou Huang*, Kevin Xie, Homanga Bharadhwaj, and Florian Shkurti
+author: Yizhou Huang, Kevin Xie, Homanga Bharadhwaj, and Florian Shkurti
 excerpt: 'Training dynamics models continually in nonstationary environments with hypernetworks enables constant-time dynamics learning sessions between planning in model-based RL.
 
 [Paper](https://arxiv.org/pdf/2009.11997.pdf)
