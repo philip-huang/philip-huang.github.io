@@ -1,15 +1,14 @@
 ---
-title: "Paper Title Number 2"
+title: "Zeus: A system description of the two-time winner of the collegiate sae autodrive competition"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
----
-This paper is about the number 2. The number 3 is left for future work.
+author: Keenan Burnett, Jingxing Qian, Xintong Du, Linqiao Liu, David J. Yoon, Tianchang Shen, Susan Sun, Sepehr Samavi, Michael J. Sorocky, Mollie Bianchi, Kaicheng Zhang, Arkady Arkhangorodsky, Quinlan Sykora, Shichen Lu, *Yizhou Huang*, Angela Schoellig, Timothy D. Barfoot
+excerpt: 'Zeus is the winning entry of the three-year SAE AutoDrive Challenge collegiate competition aiming to develop a self-driving car by 2020. 
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+[Paper](https://arxiv.org/pdf/2004.08752.pdf) 
+'
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+date: 2020-04-23
+venue: 'Journal of Field Robotics'
+
+--- 
+ 
