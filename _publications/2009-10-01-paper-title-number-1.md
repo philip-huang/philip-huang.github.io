@@ -8,7 +8,7 @@ excerpt: 'Training a deep learning coordination policy that learns distributed c
 '
 
 date: 2020-04-23
-venue: 'Journal of Field Robotics'
+venue: 'online'
 
 
 --- 
