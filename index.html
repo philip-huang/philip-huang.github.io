@@ -43,7 +43,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" src="images/philiph.jpg">
+              <img style="width:100%;max-width:100%" src="images/philiph2.jpg">
             </td>
           </tr>
         </tbody></table>
@@ -61,15 +61,55 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+        <tr onmouseout="hnetcrl_stop()" onmouseover="hnetcrl_start()">
+          <td style="padding:20px;width:27%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='boat_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/boat.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='images/boat.JPG' width="180">
+            </div>
+            <script type="text/javascript">
+              function boat_start() {
+                document.getElementById('boat_image').style.opacity = "1";
+              }
+
+              function boat_stop() {
+                document.getElementById('boat_image').style.opacity = "0";
+              }
+              boat_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:73%;vertical-align:middle">
+            <a href="https://arxiv.org/submit/4509866/view">
+              <papertitle>Stochastic Planning for ASV Navigation Using Satellite Images</papertitle>
+            </a>
+            <br>
+            <strong>Yizhou Huang</strong>,
+            <a href="https://hamzadugmag.com/">Hamza Dugmag</a>,
+            <a href="http://asrl.utias.utoronto.ca/~tdb/">Timothy D. Barfoot</a>,
+            <a href="http://www.cs.toronto.edu/~florian/">Florian Shkurti</a>
+            <br>
+            <em>Submitted to ICRA</em>, 2023
+            <br>
+            <a href="https://arxiv.org/submit/4509866/view">arXiv preprint</a>
+            /
+            <a href="https://youtu.be/at6N_KZvA-w">video</a>
+            /
+            <p></p>
+            <p>A robust route-planning algorithm uses satellite images as a corase map to plan water sampling routes for autonomous surface vessels (ASV) given environmental disturbances.</p>
+          </td>
+        </tr> 
            
         <tr onmouseout="hnetcrl_stop()" onmouseover="hnetcrl_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
+          <td style="padding:20px;width:27%;vertical-align:middle">
             <div class="one">
               <div class="two" id='hnetcrl_image'><video  width=100% height=100% muted autoplay loop>
               <source src="images/hnetcrl_door.mp4" type="video/mp4">
               Your browser does not support the video tag.
               </video></div>
-              <img src='images/hnetcrl_door.jpg' width="160">
+              <img src='images/hypercrl.png' width="180">
             </div>
             <script type="text/javascript">
               function hnetcrl_start() {
@@ -82,15 +122,15 @@
               hnetcrl_stop()
             </script>
           </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
+          <td style="padding:20px;width:73%;vertical-align:middle">
             <a href="https://rvl.cs.toronto.edu/#/blog/hypercrl-md/">
               <papertitle>Continual Model-Based Reinforcement Learning with Hypernetworks</papertitle>
             </a>
             <br>
             <strong>Yizhou Huang</strong>,
-            <a href="https://bmild.github.io/">Kevin Xie</a>,
-            <a href="https://scholar.harvard.edu/dorverbin/home">Homanga Bharadhwaj</a>,
-            <a href="https://pratulsrinivasan.github.io/">Florian Shkurti</a>
+            <a href="https://kevincxie.github.io/">Kevin Xie</a>,
+            <a href="https://homangab.github.io/">Homanga Bharadhwaj</a>,
+            <a href="http://www.cs.toronto.edu/~florian/">Florian Shkurti</a>
             <br>
             <em>ICRA</em>, 2021 and <em>Deep RL Workshop</em> (NeurIPS 20) &nbsp
             <br>
@@ -107,13 +147,13 @@
         </tr> 
 
         <tr onmouseout="autodrive_stop()" onmouseover="autodrive_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
+          <td style="padding:20px;width:27%;vertical-align:middle">
             <div class="one">
               <div class="two" id='autodrive_image'><video  width=100% height=100% muted autoplay loop>
               <source src="images/autodrive_image.mp4" type="video/mp4">
               Your browser does not support the video tag.
               </video></div>
-              <img src='images/autodrive_image.jpg' width="160">
+              <img src='images/autodrive_image.jpg' width="180">
             </div>
             <script type="text/javascript">
               function autodrive_start() {
@@ -126,7 +166,7 @@
               autodrive_stop()
             </script>
           </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:20px;width:73%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2004.08752">
                 <papertitle>Zeus: A system description of the two-time winner of the collegiate SAE autodrive competition.</papertitle>
               </a>
@@ -161,22 +201,12 @@
 
            
           <tr onmouseout="hnetcrl_stop()" onmouseover="hnetcrl_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px;width:27%;vertical-align:middle">
               <div class="one">
-                <img src='images/cl_thesis.JPG' width="160">
+                <img src='images/cl_thesis.JPG' width="180">
               </div>
-              <script type="text/javascript">
-                function hnetcrl_start() {
-                  document.getElementById('hnetcrl_image').style.opacity = "1";
-                }
-  
-                function hnetcrl_stop() {
-                  document.getElementById('hnetcrl_image').style.opacity = "0";
-                }
-                hnetcrl_stop()
-              </script>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:20px;width:73%;vertical-align:middle">
               <a href="https://rvl.cs.toronto.edu/#/blog/hypercrl-md">
                 <papertitle>Improving Regularization-based Continual Learning with Hypernetworks</papertitle>
               </a>
@@ -203,28 +233,41 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="hnetcrl_stop()" onmouseover="hnetcrl_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr>
+            <td style="padding:20px;width:27%;vertical-align:middle">
               <div class="one">
-                <img src='images/at-work_2017-07-24.jpg' width="160">
+                <img src='images/crazyflie.JPG' width="180">
               </div>
-              <script type="text/javascript">
-                function hnetcrl_start() {
-                  document.getElementById('hnetcrl_image').style.opacity = "1";
-                }
-  
-                function hnetcrl_stop() {
-                  document.getElementById('hnetcrl_image').style.opacity = "0";
-                }
-                hnetcrl_stop()
-              </script>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://rvl.cs.toronto.edu/#/blog/hypercrl-md">
+            <td style="padding:20px;width:73%;vertical-align:middle">
+              <a href="https://youtu.be/tO3RZ0rRzzI">
+                <papertitle>Indoor Localization of a Crazyflie using a Ping-Pong Ball</papertitle>
+              </a>
+              <br>
+              Summer Research Project
+              <br>
+              <em>CEAR Lab</em>, Technion
+              <br>
+              <a href="https://youtu.be/tO3RZ0rRzzI">Demo Video</a>
+              <p></p>
+              <p>Indoor localization and navigation of a Crazyflie nano-quadcopter with a RGB-D camera for pollinating sunflowers. </p>
+            </td>
+          </tr> 
+          
+          <tr>
+            <td style="padding:20px;width:27%;vertical-align:middle">
+              <div class="one">
+                <img src='images/at-work_2017-07-24.jpg' width="180">
+              </div>
+            </td>
+            <td style="padding:20px;width:73%;vertical-align:middle">
+              <a href="https://youtu.be/mShxyercvXU">
                 <papertitle>Controlling a Swarm of Crazyflies</papertitle>
               </a>
               <br>
-              Summer Research Project at <em>Dynamic Systems Lab</em>
+              Summer Research Project
+              <br>
+              <em>Dynamic Systems Lab</em>, University of Toronto
               <br>
               <a href="https://youtu.be/mShxyercvXU">Demo Video</a>/<a href="https://arxiv.org/pdf/1709.06620.pdf">Technical Report</a>
               <p></p>
@@ -243,8 +286,8 @@
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
 					
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"></td>
-            <td width="75%" valign="center">
+            <td style="padding:20px;width:27%;vertical-align:middle"></td>
+            <td width="73%" valign="center">
               Reviewer, IROS 2022
               <br>
               Reviewer, MetaLearn Workshop NeurIPS 2020
@@ -254,10 +297,10 @@
             </td>
           </tr>
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/csc477.JPG" alt="csc477" width="160">
+            <td style="padding:20px;width:27%;vertical-align:middle">
+              <img src="images/csc477.JPG" alt="csc477" width="180">
             </td>
-            <td width="75%" valign="center">
+            <td width="73%" valign="center">
               TA, <a href="http://www.cs.toronto.edu/~florian/courses/csc477_fall21/">CSC477 Fall 2021</a>
               <br>
               TA, <a href="https://github.com/karansher/computer-graphics-csc317">CSC317 Fall 2022</a>
