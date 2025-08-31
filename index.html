@@ -147,17 +147,58 @@
           </tr>
         </tbody></table>
       
-        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
               <heading>Preprints</heading>
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="p2p_stop()" onmouseover="p2p_start()">
+            <td style="padding:20px;width:34%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='p2p_image'><video width=100% height=100% loop>
+                 </div>
+                <img src='images/p2p.gif' width="240">
+              </div>
+              <script type="text/javascript">
+                function p2p_start() {
+                  document.getElementById('p2p_image').style.opacity = "1";
+                }
+  
+                function p2p_stop() {
+                  document.getElementById('p2p_image').style.opacity = "0";
+                }
+                p2p_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:73%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2508.21063">
+                <papertitle>Prompt-to-Product: Generative Assembly via Bimanual Manipulation</papertitle>
+              </a>
+              <br>
+              <a href="https://waynekyrie.github.io/"> Ruixuan Liu* </a>,
+              <strong>Philip Huang*</strong>,
+              <a href="https://avapun.com/"/>Ava Pun</a>,
+              <a href="https://dunbar12138.github.io/"/>Kangle Deng</a>,
+              <a href="https://engineering.cmu.edu/directory/bios/aggarwal-shobhit.html" > Shobhit Agarwal</a>,
+              Kevin Tang, Michelle Liu,
+              <a href="https://www.cs.cmu.edu/~deva/">Deva Ramanan</a>,
+              <a href="https://www.cs.cmu.edu/~junyanz/">Jun-Yan Zhu</a>,
+              <a href="https://jiaoyangli.me/">Jiaoyang Li</a>,
+              <a href="https://www.cs.cmu.edu/~cliu6/"> Changliu Liu </a>
+              <br>
+              Preprint, 2025
+              <br> 
+              <a href="https://arxiv.org/pdf/2508.21063">arXiv</a>
+              /
+              <p></p>
+              <p>The first generative LEGO assembly framework that designs and construct product from natural language prompts</p>
+            </td>
+        </tr>
         
-        <!--
-        </tbody></table>-->
+        </tbody></table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
