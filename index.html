@@ -205,6 +205,45 @@
               <p>The first generative LEGO assembly framework that designs and construct product from natural language prompts</p>
             </td>
         </tr>
+
+        <tr onmouseout="p2p_stop()" onmouseover="p2p_start()">
+            <td style="padding:20px;width:34%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='p2p_image'><video width=100% height=100% loop>
+                 </div>
+                <img src='images/vamp-kinova.gif' width="240">
+              </div>
+              <script type="text/javascript">
+                function p2p_start() {
+                  document.getElementById('p2p_image').style.opacity = "1";
+                }
+  
+                function p2p_stop() {
+                  document.getElementById('p2p_image').style.opacity = "0";
+                }
+                p2p_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:73%;vertical-align:middle">
+              <a href="https://vamp-mr.github.io/vamp-mr/">
+                <papertitle>VAMP-MR: Vector-Accelerated Motion Planning and Execution for Multi-Robot-Arms</papertitle>
+              </a>
+              <br>
+              <strong>Philip Huang</strong>,
+              Chenrui Gao,
+              <a href="https://jiaoyangli.me/">Jiaoyang Li</a>
+              <br>
+              Workshop on Multi-Agent Path Finding (WoMAPF), AAAI 2026
+              <br> 
+              <a href="https://openreview.net/pdf?id=ePPOoz8KKp">Paper</a>
+              /
+              <a href="https://vamp-mr.github.io/vamp-mr/">Website</a>
+              /
+              <a href="https://github.com/vamp-mr/vamp-mr">Code</a>
+              <p></p>
+              <p>Accelerating multi-robot collision checking and planning <b>10x-100x</b> through CPU SIMD vectorization.</p>
+            </td>
+        </tr>
         
         </tbody></table>
 
@@ -252,7 +291,7 @@
               /
               <a href="https://github.com/philip-huang/mr-shortcut">Code</a>
               /
-              <a href="https://drive.google.com/file/d/10CIAL-ssEVnXKv2Qb4tB3tUobua3SEfo/preview">Video</a>
+              <a href="https://youtu.be/R6JYAEpotMI">Video</a>
               <p></p>
               <p>Dataset and evaluation of multi-robot shortcutting, a important yet under-investigated post-processing step in multi-robot arm motion planning.</p>
             
@@ -294,7 +333,7 @@
               /
               <a href="https://github.com/intelligent-control-lab/APEX-MR">Code</a>
               /
-              <a href="https://drive.google.com/file/d/15iYndy__BhI_r0uGmHVpnUeX8OPo3lT_/preview">Video</a>
+              <a href="https://youtu.be/JCYxlI_gma8">Video</a>
               <p></p>
               <p>An asynchronous planning and execution framework designed to safely and efficiently coordinate multiple robots arms to achieve cooperative assembly.</p>
             </td>
