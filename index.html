@@ -90,6 +90,30 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:10px 20px 5px 20px;width:15%;vertical-align:top">
+              <strong>May 2026</strong>
+            </td>
+            <td style="padding:10px 20px 5px 20px;width:85%;vertical-align:top">
+              Started my summer internship at NVIDIA's Seattle Robotics Lab!
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:10px 20px 5px 20px;width:15%;vertical-align:top">
+              <strong>May 2026</strong>
+            </td>
+            <td style="padding:10px 20px 5px 20px;width:85%;vertical-align:top">
+              Come join the <a href="https://rocochallenge.github.io/RoCo-IROS2026/">2nd RoCo (Robotic Collaborative Assembly) Challenge</a> at IROS 2026!
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:10px 20px 5px 20px;width:15%;vertical-align:top">
+              <strong>Mar 2026</strong>
+            </td>
+            <td style="padding:10px 20px 5px 20px;width:85%;vertical-align:top">
+              Our paper, <a href="https://prompt2product.github.io/">Prompt-to-Product</a>, has been accepted to IEEE Robotics and Automation Magazine (RAM)!
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:10px 20px 5px 20px;width:15%;vertical-align:top">
               <strong>Aug 2025</strong>
             </td>
             <td style="padding:10px 20px 5px 20px;width:85%;vertical-align:top">
@@ -163,49 +187,44 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="p2p_stop()" onmouseover="p2p_start()">
+          <tr onmouseout="skillgraph_stop()" onmouseover="skillgraph_start()">
             <td style="padding:20px;width:34%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='p2p_image'><video width=100% height=100% loop>
-                 </div>
-                <img src='images/p2p.gif' width="240">
+              <div class="one" style="width:240px;height:135px;">
+                <div class="two" id='skillgraph_image' style="width:240px;height:135px;"><video width="240" height="135" muted autoplay loop>
+                  <source src="images/skillgraph_video.mp4" type="video/mp4">
+                </video></div>
+                <img src='images/skillgraph_loop.svg' width="240" height="135">
               </div>
               <script type="text/javascript">
-                function p2p_start() {
-                  document.getElementById('p2p_image').style.opacity = "1";
+                function skillgraph_start() {
+                  document.getElementById('skillgraph_image').style.opacity = "1";
                 }
-  
-                function p2p_stop() {
-                  document.getElementById('p2p_image').style.opacity = "0";
+
+                function skillgraph_stop() {
+                  document.getElementById('skillgraph_image').style.opacity = "0";
                 }
-                p2p_stop()
+                skillgraph_stop()
               </script>
             </td>
             <td style="padding:20px;width:73%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2508.21063">
-                <papertitle>Prompt-to-Product: Generative Assembly via Bimanual Manipulation</papertitle>
+              <a href="https://arxiv.org/abs/2603.12649">
+                <papertitle>Autonomous Integration and Improvement of Robotic Assembly using Skill Graph Representations</papertitle>
               </a>
               <br>
-              <a href="https://waynekyrie.github.io/"> Ruixuan Liu* </a>,
+              <a href="https://icontrol.ri.cmu.edu/people/peiqi.html">Peiqi Yu*</a>,
               <strong>Philip Huang*</strong>,
-              <a href="https://avapun.com/"/>Ava Pun</a>,
-              <a href="https://dunbar12138.github.io/"/>Kangle Deng</a>,
-              <a href="https://engineering.cmu.edu/directory/bios/aggarwal-shobhit.html" > Shobhit Agarwal</a>,
-              Kevin Tang, Michelle Liu,
-              <a href="https://www.cs.cmu.edu/~deva/">Deva Ramanan</a>,
-              <a href="https://www.cs.cmu.edu/~junyanz/">Jun-Yan Zhu</a>,
+              <a href="https://chaitanya1chawla.github.io/">Chaitanya Chawla*</a>,
+              <a href="https://www.gshi.me/">Guanya Shi</a>,
               <a href="https://jiaoyangli.me/">Jiaoyang Li</a>,
-              <a href="https://www.cs.cmu.edu/~cliu6/"> Changliu Liu </a>
+              <a href="https://www.cs.cmu.edu/~cliu6/">Changliu Liu</a>
               <br>
-              Preprint, 2025
-              <br> 
-              <a href="https://arxiv.org/pdf/2508.21063">arXiv</a>
+              Preprint, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2603.12649">arXiv</a>
               /
-              <a href="https://icontrol.ri.cmu.edu/research/lego.html">Website</a>
-              /
-              <a href="https://youtu.be/F1cG9U48noc?si=IX1XtDGndRCMu229">Video</a>
+              <a href="images/skillgraph_video.mp4">Video</a>
               <p></p>
-              <p>The first generative LEGO assembly framework that designs and construct product from natural language prompts</p>
+              <p>A skill graph representation that unifies semantic planning, execution grounding, data collection, and iterative skill refinement for scalable and adaptive robotic assembly.</p>
             </td>
         </tr>
 
@@ -258,7 +277,53 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        
+
+          <tr onmouseout="p2p_stop()" onmouseover="p2p_start()">
+            <td style="padding:20px;width:34%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='p2p_image'><video width=100% height=100% loop>
+                 </div>
+                <img src='images/p2p.gif' width="240">
+              </div>
+              <script type="text/javascript">
+                function p2p_start() {
+                  document.getElementById('p2p_image').style.opacity = "1";
+                }
+
+                function p2p_stop() {
+                  document.getElementById('p2p_image').style.opacity = "0";
+                }
+                p2p_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:73%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2508.21063">
+                <papertitle>Prompt-to-Product: Generative Assembly via Bimanual Manipulation</papertitle>
+              </a>
+              <br>
+              <a href="https://waynekyrie.github.io/"> Ruixuan Liu* </a>,
+              <strong>Philip Huang*</strong>,
+              <a href="https://avapun.com/"/>Ava Pun</a>,
+              <a href="https://dunbar12138.github.io/"/>Kangle Deng</a>,
+              <a href="https://engineering.cmu.edu/directory/bios/aggarwal-shobhit.html" > Shobhit Agarwal</a>,
+              Kevin Tang, Michelle Liu,
+              <a href="https://www.cs.cmu.edu/~deva/">Deva Ramanan</a>,
+              <a href="https://www.cs.cmu.edu/~junyanz/">Jun-Yan Zhu</a>,
+              <a href="https://jiaoyangli.me/">Jiaoyang Li</a>,
+              <a href="https://www.cs.cmu.edu/~cliu6/"> Changliu Liu </a>
+              <br>
+              IEEE Robotics and Automation Magazine <em>(RAM)</em>, 2026
+              <br>
+              <a href="https://arxiv.org/pdf/2508.21063">arXiv</a>
+              /
+              <a href="https://prompt2product.github.io/">Website</a>
+              /
+              <a href="https://youtu.be/F1cG9U48noc?si=IX1XtDGndRCMu229">Video</a>
+              <p></p>
+              <p>The first generative LEGO assembly framework that designs and construct product from natural language prompts</p>
+            </td>
+        </tr>
+
           <tr onmouseout="mr-shortcut_stop()" onmouseover="mr-shortcut_start()">
             <td style="padding:20px;width:34%;vertical-align:middle">
               <div class="one">
@@ -502,7 +567,7 @@
             </script>
           </td>
           <td style="padding:20px;width:73%;vertical-align:middle">
-            <a href="https://rvl.cs.toronto.edu/blog/hypercrl-md">
+            <a href="https://rvl.cs.toronto.edu/blog/hypercrl/">
               <papertitle>Continual Model-Based Reinforcement Learning with Hypernetworks</papertitle>
             </a>
             <br>
@@ -513,7 +578,7 @@
             <br>
             IEEE International Conference on Robotics and Automation <em>(ICRA)</em>, 2021 and Deep RL Workshop (<em>NeurIPS 20</em>) &nbsp
             <br>
-            <a href="https://rvl.cs.toronto.edu/blog/hypercrl-md">Website</a>
+            <a href="https://rvl.cs.toronto.edu/blog/hypercrl/">Website</a>
             /
             <a href="https://arxiv.org/pdf/2009.11997.pdf">arXiv</a>
             /
@@ -586,7 +651,7 @@
               </div>
             </td>
             <td style="padding:20px;width:73%;vertical-align:middle">
-              <a href="https://rvl.cs.toronto.edu/blog/hypercrl-md">
+              <a href="https://rvl.cs.toronto.edu/blog/hypercrl/">
                 <papertitle>Improving Regularization-based Continual Learning with Hypernetworks</papertitle>
               </a>
               <br>
