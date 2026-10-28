@@ -207,6 +207,37 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr>
+            <td style="padding:20px;width:34%;vertical-align:middle">
+              <a href="https://cuarms.github.io/">
+                <img src="images/cuarms-highlight.gif" width="240" height="135" alt="cuArms highlights: real-robot collaboration, multi-arm welding, and LEGO assembly" loading="lazy">
+              </a>
+            </td>
+            <td style="padding:20px;width:73%;vertical-align:middle">
+              <a href="https://cuarms.github.io/">
+                <papertitle>cuArms: GPU-Accelerated Conflict-Based Planning for Multi-Arm Manipulation</papertitle>
+              </a>
+              <br>
+              <strong>Philip Huang</strong>,
+              <a href="https://fabioramos.github.io/Home.html">Fabio Ramos</a>,
+              <a href="https://jiaoyangli.me/">Jiaoyang Li</a>,
+              <a href="https://caelan.github.io/">Caelan Garrett</a>,
+              <a href="https://research.nvidia.com/person/lars-johannsmeier">Lars Johannsmeier</a>
+              <br>
+              Preprint, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2610.36250">arXiv</a>
+              /
+              <a href="https://cuarms.github.io/">Website</a>
+              /
+              <a href="https://cuarms.github.io/videos/web/highlight-demos.mp4">Video</a>
+              /
+              <a href="https://x.com/philipYHuang/status/2115471478166847625">X</a>
+              <p></p>
+              <p>A GPU-accelerated conflict-based planner for multi-arm manipulation that jointly optimizes task assignment, schedules, motions, and manipulation skills, with real-time initial solutions and anytime improvements.</p>
+            </td>
+          </tr>
+
           <tr onmouseout="p2p_stop()" onmouseover="p2p_start()">
             <td style="padding:20px;width:34%;vertical-align:middle">
               <div class="one">
@@ -291,6 +322,47 @@
               <a href="https://github.com/vamp-mr/vamp-mr">Code</a>
               <p></p>
               <p>Accelerating multi-robot collision checking and planning <b>10x-100x</b> through CPU SIMD vectorization.</p>
+            </td>
+        </tr>
+
+          <tr onmouseout="skillgraph_stop()" onmouseover="skillgraph_start()">
+            <td style="padding:20px;width:34%;vertical-align:middle">
+              <div class="one" style="width:240px;height:135px;">
+                <div class="two" id='skillgraph_image' style="width:240px;height:135px;"><video width="240" height="135" muted autoplay loop>
+                  <source src="images/skillgraph_video.mp4" type="video/mp4">
+                </video></div>
+                <img src='images/skillgraph_loop.svg' width="240" height="135">
+              </div>
+              <script type="text/javascript">
+                function skillgraph_start() {
+                  document.getElementById('skillgraph_image').style.opacity = "1";
+                }
+
+                function skillgraph_stop() {
+                  document.getElementById('skillgraph_image').style.opacity = "0";
+                }
+                skillgraph_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:73%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2603.12649">
+                <papertitle>Autonomous Integration and Improvement of Robotic Assembly using Skill Graph Representations</papertitle>
+              </a>
+              <br>
+              <a href="https://icontrol.ri.cmu.edu/people/peiqi.html">Peiqi Yu*</a>,
+              <strong>Philip Huang*</strong>,
+              <a href="https://chaitanya1chawla.github.io/">Chaitanya Chawla*</a>,
+              <a href="https://www.gshi.me/">Guanya Shi</a>,
+              <a href="https://jiaoyangli.me/">Jiaoyang Li</a>,
+              <a href="https://www.cs.cmu.edu/~cliu6/">Changliu Liu</a>
+              <br>
+              ICRA 2026 Workshop on Multi-Agent Robotic Systems: Real-World Collaboration and Interaction
+              <br>
+              <a href="https://arxiv.org/abs/2603.12649">arXiv</a>
+              /
+              <a href="images/skillgraph_video.mp4">Video</a>
+              <p></p>
+              <p>A skill graph representation that unifies semantic planning, execution grounding, data collection, and iterative skill refinement for scalable and adaptive robotic assembly.</p>
             </td>
         </tr>
 
@@ -602,56 +674,7 @@
             </td>
           </tr>
 
-        </tbody></table>
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Preprints</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="skillgraph_stop()" onmouseover="skillgraph_start()">
-            <td style="padding:20px;width:34%;vertical-align:middle">
-              <div class="one" style="width:240px;height:135px;">
-                <div class="two" id='skillgraph_image' style="width:240px;height:135px;"><video width="240" height="135" muted autoplay loop>
-                  <source src="images/skillgraph_video.mp4" type="video/mp4">
-                </video></div>
-                <img src='images/skillgraph_loop.svg' width="240" height="135">
-              </div>
-              <script type="text/javascript">
-                function skillgraph_start() {
-                  document.getElementById('skillgraph_image').style.opacity = "1";
-                }
-
-                function skillgraph_stop() {
-                  document.getElementById('skillgraph_image').style.opacity = "0";
-                }
-                skillgraph_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:73%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2603.12649">
-                <papertitle>Autonomous Integration and Improvement of Robotic Assembly using Skill Graph Representations</papertitle>
-              </a>
-              <br>
-              <a href="https://icontrol.ri.cmu.edu/people/peiqi.html">Peiqi Yu*</a>,
-              <strong>Philip Huang*</strong>,
-              <a href="https://chaitanya1chawla.github.io/">Chaitanya Chawla*</a>,
-              <a href="https://www.gshi.me/">Guanya Shi</a>,
-              <a href="https://jiaoyangli.me/">Jiaoyang Li</a>,
-              <a href="https://www.cs.cmu.edu/~cliu6/">Changliu Liu</a>
-              <br>
-              Preprint, 2026
-              <br>
-              <a href="https://arxiv.org/abs/2603.12649">arXiv</a>
-              /
-              <a href="images/skillgraph_video.mp4">Video</a>
-              <p></p>
-              <p>A skill graph representation that unifies semantic planning, execution grounding, data collection, and iterative skill refinement for scalable and adaptive robotic assembly.</p>
-            </td>
-        </tr>
 
         </tbody></table>
 
