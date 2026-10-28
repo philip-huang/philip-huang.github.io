@@ -129,3 +129,12 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+#publications .selected-publication > td {
+  background-color: #ffffe0;
+}
+
+.publication-award {
+  color: #b22222;
+  font-weight: 700;
+}

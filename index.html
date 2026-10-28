@@ -17,7 +17,7 @@
   <meta name="author" content="Philip (Yizhou) Huang ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20261028c">
 	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
 </head>
 
@@ -205,9 +205,9 @@
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table id="publications" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr>
+          <tr class="selected-publication">
             <td style="padding:20px;width:34%;vertical-align:middle">
               <a href="https://cuarms.github.io/">
                 <img src="images/cuarms-highlight.gif" width="240" height="135" alt="cuArms highlights: real-robot collaboration, multi-arm welding, and LEGO assembly" loading="lazy">
@@ -238,7 +238,7 @@
             </td>
           </tr>
 
-          <tr onmouseout="p2p_stop()" onmouseover="p2p_start()">
+          <tr class="selected-publication" onmouseout="p2p_stop()" onmouseover="p2p_start()">
             <td style="padding:20px;width:34%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='p2p_image'><video width=100% height=100% loop>
@@ -406,7 +406,7 @@
               <p>Dataset and evaluation of multi-robot shortcutting, a important yet under-investigated post-processing step in multi-robot arm motion planning.</p>
             
           </tr>
-          <tr onmouseout="apexmr_stop()" onmouseover="apexmr_start()">
+          <tr class="selected-publication" onmouseout="apexmr_stop()" onmouseover="apexmr_start()">
             <td style="padding:20px;width:34%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='apexmr_image'><video width=100% height=100% loop>
@@ -436,6 +436,8 @@
               <a href="https://jiaoyangli.me/">Jiaoyang Li</a>
               <br>
               Robotics Science and Systems (<em>RSS</em>), 2025
+              <br>
+              <a class="publication-award" href="https://dyalab.mines.edu/2025/icra-workshop/">Best Poster Finalist at 2025 ICRA workshop</a>
               <br>
               <a href="https://intelligent-control-lab.github.io/APEX-MR/">Website</a>
               /
@@ -500,7 +502,7 @@
             </td>
         </tr>
 
-        <tr onmouseout="hnetcrl_stop()" onmouseover="hnetcrl_start()">
+        <tr class="selected-publication" onmouseout="hnetcrl_stop()" onmouseover="hnetcrl_start()">
             <td style="padding:20px;width:34%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='boat_image'><video  width=100% height=100% muted autoplay loop>
@@ -588,7 +590,7 @@
           </td>
         </tr> 
            
-        <tr onmouseout="hnetcrl_stop()" onmouseover="hnetcrl_start()">
+        <tr class="selected-publication" onmouseout="hnetcrl_stop()" onmouseover="hnetcrl_start()">
           <td style="padding:20px;width:34%;vertical-align:middle">
             <div class="one">
               <div class="two" id='hnetcrl_image'><video  width=100% height=100% muted autoplay loop>
